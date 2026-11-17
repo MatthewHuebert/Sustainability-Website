@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Swap finder</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+<h1>What are you replacing?</h1>
+<section class="lookup"><h2>Look up a product</h2>
+<form id="lkf"><input id="lk" class="lk" placeholder="Barcode or product name" aria-label="Barcode or product name"><button class="btn">Look up</button><button type="button" class="btn ghost" id="scan">Scan</button></form>
+<video id="cam" hidden playsinline muted></video><div id="lkmsg" aria-live="polite"></div><div id="hits"></div><div id="product"></div></section>
+<h2 class="browse">Or browse swaps</h2>
+
+<input id="q" class="search" type="search" placeholder="Try “paper towels”, “razor”, or “beef”" aria-label="Search for something to swap" autocomplete="off">
+<div class="tools" id="cats" role="group" aria-label="Filter by category"></div>
+<div class="tools" style="margin-top:0"><label class="sort"><input type="checkbox" id="sort"> Biggest impact first</label></div>
+<div class="count" id="count" aria-live="polite"></div>
+<ul id="results"></ul>
+<section class="list" aria-labelledby="lt">
+<h2 id="lt">My swap list</h2>
+<div id="saved"></div>
+</section>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>
