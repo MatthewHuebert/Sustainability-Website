@@ -1,0 +1,695 @@
+[
+ {
+  "cat": "Kitchen",
+  "from": "Plastic wrap",
+  "to": "Reusable lids or beeswax wraps",
+  "impact": 2,
+  "cost": "s",
+  "why": "Cling film is used once and rarely recycled. A plate over a bowl does the same job for free.",
+  "tip": "Start with what you already own: plates, bowls and jars with lids.",
+  "keywords": "cling film saran",
+  "match": ["cling film", "plastic wrap", "saran", "food wrap", "shrink wrap"]
+ },
+ {
+  "cat": "Kitchen",
+  "from": "Paper towels",
+  "to": "Washable cloths",
+  "impact": 2,
+  "cost": "s",
+  "why": "A stack of rags replaces hundreds of rolls over their life, and you stop paying for what you throw away.",
+  "tip": "Cut up worn-out t-shirts and keep a bin by the sink.",
+  "keywords": "kitchen roll napkins",
+  "match": ["paper towel", "kitchen roll", "napkin", "tissue"]
+ },
+ {
+  "cat": "Kitchen",
+  "from": "Zip-top plastic bags",
+  "to": "Silicone bags or glass jars",
+  "impact": 2,
+  "cost": "s",
+  "why": "Reusable containers pay for themselves within a few months and don’t shed plastic.",
+  "tip": "Wash and reuse jars from pasta sauce or jam.",
+  "keywords": "ziploc sandwich bag freezer",
+  "match": [
+   "zip",
+   "sandwich bag",
+   "freezer bag"
+  ]
+ },
+ {
+  "cat": "Kitchen",
+  "from": "Bottled water",
+  "to": "A refillable bottle",
+  "impact": 3,
+  "cost": "s",
+  "why": "Bottles cost far more than tap water and add up to a lot of waste.",
+  "tip": "Choose steel or glass if you hate the taste of plastic.",
+  "keywords": "water bottle plastic",
+  "match": ["bottled water", "waters", "spring water", "plastic bottle", "mineral water", "sparkling water"]
+ },
+ {
+  "cat": "Kitchen",
+  "from": "Disposable coffee cups",
+  "to": "A reusable mug",
+  "impact": 2,
+  "cost": "s",
+  "why": "Cups are lined with plastic, which makes most of them hard to recycle. Many cafés discount your drink.",
+  "tip": "Keep a mug at work so you never forget it.",
+  "keywords": "coffee tea takeout",
+  "match": ["capsule", "coffee pod", "pods", "nespresso", "keurig"]
+ },
+ {
+  "cat": "Kitchen",
+  "from": "Plastic scrub sponges",
+  "to": "Cellulose sponges or wooden brushes",
+  "impact": 1,
+  "cost": "e",
+  "why": "Plastic sponges shed microplastics down the drain. Natural ones can go in the compost.",
+  "tip": "Replace sponges on a schedule and boil or microwave them to keep them fresh.",
+  "keywords": "dish sponge scourer",
+  "match": [
+   "sponge",
+   "scourer"
+  ]
+ },
+ {
+  "cat": "Kitchen",
+  "from": "Aluminum foil",
+  "to": "Reusable baking mats and trays",
+  "impact": 1,
+  "cost": "e",
+  "why": "Foil is energy-intensive to make and usually ends up soiled. A mat lasts for years.",
+  "tip": "Use a lid or parchment for short jobs.",
+  "keywords": "tin foil baking",
+  "match": [
+   "aluminium foil",
+   "aluminum foil",
+   "foil"
+  ]
+ },
+ {
+  "cat": "Bathroom",
+  "from": "Plastic toothbrushes",
+  "to": "Bamboo toothbrushes",
+  "impact": 1,
+  "cost": "e",
+  "why": "Bamboo handles are compostable, so only the bristles go to waste.",
+  "tip": "Snip the bristles before composting the handle.",
+  "keywords": "dental teeth",
+  "match": [
+   "toothbrush"
+  ]
+ },
+ {
+  "cat": "Bathroom",
+  "from": "Bottled shampoo",
+  "to": "Shampoo bars",
+  "impact": 2,
+  "cost": "s",
+  "why": "Bars last longer than bottles, skip the plastic and are lighter to ship.",
+  "tip": "Keep the bar on a draining dish so it lasts.",
+  "keywords": "soap hair conditioner body wash",
+  "match": ["shampoo", "body wash", "shower gel", "conditioner", "hair wash"]
+ },
+ {
+  "cat": "Bathroom",
+  "from": "Disposable razors",
+  "to": "A safety razor",
+  "impact": 2,
+  "cost": "s",
+  "why": "One metal handle and cheap blades replace piles of plastic razors.",
+  "tip": "Blades recycle at many metal recyclers. Store them in a tin.",
+  "keywords": "shaving",
+  "match": ["razor", "shaving", "shave"]
+ },
+ {
+  "cat": "Bathroom",
+  "from": "Cotton rounds",
+  "to": "Washable pads",
+  "impact": 1,
+  "cost": "s",
+  "why": "Cotton farming uses lots of water. Washable pads go through the laundry with your towels.",
+  "tip": "Use a small mesh bag so they don’t get lost.",
+  "keywords": "makeup remover face",
+  "match": [
+   "cotton pad",
+   "cotton round"
+  ]
+ },
+ {
+  "cat": "Bathroom",
+  "from": "Wet wipes",
+  "to": "A washcloth",
+  "impact": 2,
+  "cost": "s",
+  "why": "Most wipes contain plastic fibers and clog sewers, even when labelled flushable.",
+  "tip": "Never flush wipes, whatever the packet says.",
+  "keywords": "baby wipes flushable",
+  "match": ["wipes", "baby wipe", "wet wipe", "flushable"]
+ },
+ {
+  "cat": "Cleaning",
+  "from": "Single-use spray bottles",
+  "to": "Refill tablets or concentrate",
+  "impact": 2,
+  "cost": "s",
+  "why": "One bottle gets refilled for years, and you ship water less often.",
+  "tip": "Label bottles clearly and never mix cleaners.",
+  "keywords": "cleaner spray bottle",
+  "match": [
+   "spray",
+   "cleaner",
+   "cleaning products"
+  ]
+ },
+ {
+  "cat": "Cleaning",
+  "from": "Dryer sheets",
+  "to": "Wool dryer balls",
+  "impact": 1,
+  "cost": "s",
+  "why": "Sheets are single-use and coated in chemicals. Balls last for years and cut drying time.",
+  "tip": "Add a drop of essential oil if you want scent.",
+  "keywords": "laundry fabric softener",
+  "match": [
+   "dryer sheet",
+   "fabric softener"
+  ]
+ },
+ {
+  "cat": "Cleaning",
+  "from": "Plastic laundry jugs",
+  "to": "Powder in cardboard or detergent strips",
+  "impact": 1,
+  "cost": "e",
+  "why": "Powder and strips ship without a heavy plastic jug.",
+  "tip": "Wash in cold water to cut your energy use too.",
+  "keywords": "detergent washing pods",
+  "match": ["detergent", "laundry", "washing liquid", "fabric wash"]
+ },
+ {
+  "cat": "Food",
+  "from": "Beef",
+  "to": "Chicken, pork, beans or lentils",
+  "impact": 3,
+  "cost": "s",
+  "why": "Beef has by far the largest footprint of common meats. Even one swapped meal a week adds up.",
+  "tip": "Try mixing lentils into half the ground beef in a recipe.",
+  "keywords": "meat burger steak",
+  "match": ["beef", "burger", "steak", "mince", "ground beef", "hamburger", "cow", "meatball"]
+ },
+ {
+  "cat": "Food",
+  "from": "Chicken thighs",
+  "to": "Tofu, tempeh, beans or lentils",
+  "impact": 2,
+  "cost": "s",
+  "why": "Chicken has a far smaller footprint than beef or lamb, but plant proteins are lower still — and usually cheaper per gram of protein.",
+  "tip": "Tofu takes on marinades well; press it first to firm it up.",
+  "keywords": "poultry meat",
+  "match": ["chicken thigh", "thighs", "chicken"]
+},
+{
+  "cat": "Food",
+  "from": "Chicken breast",
+  "to": "Tofu, tempeh, beans or lentils",
+  "impact": 2,
+  "cost": "s",
+  "why": "Swapping even one chicken meal a week for plant protein cuts land, water and emissions.",
+  "tip": "Try a 50/50 mix of shredded chicken and chickpeas in tacos or curries.",
+  "keywords": "poultry meat",
+  "match": ["chicken breast", "chicken"]
+},
+{
+  "cat": "Food",
+  "from": "Pork",
+  "to": "Beans, lentils or tofu",
+  "impact": 2,
+  "cost": "s",
+  "why": "Pork sits between chicken and beef for footprint, but plant proteins are still lower.",
+  "tip": "Smoked paprika and a little soy sauce give beans a savoury depth.",
+  "keywords": "meat bacon ham sausage",
+  "match": ["pork", "bacon", "ham", "sausage", "chorizo"]
+},
+{
+  "cat": "Food",
+  "from": "Fish and seafood",
+  "to": "Beans, lentils or lower-impact fish",
+  "impact": 1,
+  "cost": "e",
+  "why": "Fishing and fish farming both carry costs. Small oily fish and bivalves are among the lowest-impact options.",
+  "tip": "Check a seafood guide for your region — ratings vary a lot by species and method.",
+  "keywords": "salmon tuna prawn shrimp",
+  "match": ["fish", "salmon", "tuna", "prawn", "shrimp", "cod", "seafood"]
+},
+{
+  "cat": "Food",
+  "from": "Eggs",
+  "to": "Fewer eggs, more legumes",
+  "impact": 1,
+  "cost": "s",
+  "why": "Eggs are a modest-impact protein, but beans and lentils are cheaper and lower still.",
+  "tip": "Chickpea flour makes a quick egg-free scramble or frittata base.",
+  "keywords": "protein",
+  "match": ["egg", "eggs", "omelette"]
+},
+{
+  "cat": "Food",
+  "from": "Butter",
+  "to": "Olive oil or plant-based spread",
+  "impact": 2,
+  "cost": "e",
+  "why": "Butter takes a lot of land and water per kilogram compared with plant fats.",
+  "tip": "Use olive oil for cooking and a plant spread for toast.",
+  "keywords": "dairy fat",
+  "match": ["butter", "margarine"]
+},
+ {
+  "cat": "Food",
+  "from": "Cow’s milk",
+  "to": "Oat or soy milk",
+  "impact": 2,
+  "cost": "e",
+  "why": "Plant milks use less land and water, and produce fewer emissions per glass.",
+  "tip": "Try a few brands. Taste varies a lot.",
+  "keywords": "dairy cereal coffee",
+  "match": ["milks", "whole milk", "skimmed milk", "semi skimmed", "dairy", "cream", "yoghurt", "yogurt", "cheese"]
+ },
+ {
+  "cat": "Food",
+  "from": "Wasted leftovers",
+  "to": "Meal planning and composting",
+  "impact": 3,
+  "cost": "s",
+  "why": "About a third of food is wasted. Cutting that is one of the biggest household wins.",
+  "tip": "Plan the week before shopping and freeze extras.",
+  "keywords": "food waste groceries scraps",
+  "match": []
+ },
+ {
+  "cat": "Food",
+  "from": "Pre-bagged produce",
+  "to": "Loose fruit and vegetables",
+  "impact": 1,
+  "cost": "s",
+  "why": "You buy only what you need and skip the plastic bag.",
+  "tip": "Bring a few light cloth produce bags.",
+  "keywords": "vegetables fruit grocery",
+  "match": [
+   "prepared salad",
+   "bagged salad",
+   "salads"
+  ]
+ },
+ {
+  "cat": "Shopping",
+  "from": "New clothes",
+  "to": "Secondhand or swapped clothes",
+  "impact": 3,
+  "cost": "s",
+  "why": "Clothing production is resource-heavy. Buying used avoids nearly all of it.",
+  "tip": "Try thrift stores, online resale and clothing swaps with friends.",
+  "keywords": "fashion thrift fast fashion shirt jeans",
+  "match": []
+ },
+ {
+  "cat": "Shopping",
+  "from": "Buying new books",
+  "to": "Your library",
+  "impact": 2,
+  "cost": "s",
+  "why": "Borrowing shares one copy among hundreds of readers, and it’s free.",
+  "tip": "Most libraries have e-books and audiobooks too.",
+  "keywords": "reading ebook",
+  "match": []
+ },
+ {
+  "cat": "Shopping",
+  "from": "Buying tools",
+  "to": "A tool library or borrowing",
+  "impact": 2,
+  "cost": "s",
+  "why": "You’ll use a drill for minutes a year. Sharing means far fewer to manufacture.",
+  "tip": "Ask neighbors before you buy, or check community groups.",
+  "keywords": "drill ladder diy",
+  "match": []
+ },
+ {
+  "cat": "Shopping",
+  "from": "Gift wrap",
+  "to": "Fabric wraps or newspaper",
+  "impact": 1,
+  "cost": "s",
+  "why": "Shiny wrap with plastic or foil can’t be recycled. Cloth gets reused every year.",
+  "tip": "Pick wrap that’s part of the gift, like a scarf or tea towel.",
+  "keywords": "wrapping paper gifts birthday",
+  "match": [
+   "wrapping paper",
+   "gift wrap"
+  ]
+ },
+ {
+  "cat": "Home",
+  "from": "Incandescent bulbs",
+  "to": "LED bulbs",
+  "impact": 3,
+  "cost": "u",
+  "why": "LEDs use a fraction of the power and last many years. They pay back their cost quickly.",
+  "tip": "Swap the bulbs you use most first.",
+  "keywords": "light lighting lamp",
+  "match": [
+   "light bulb",
+   "incandescent"
+  ]
+ },
+ {
+  "cat": "Home",
+  "from": "Devices on standby",
+  "to": "A power strip you switch off",
+  "impact": 2,
+  "cost": "s",
+  "why": "Idle TVs and consoles quietly draw power all day.",
+  "tip": "Put the TV, console and speakers on one strip.",
+  "keywords": "electronics phantom vampire energy",
+  "match": []
+ },
+ {
+  "cat": "Home",
+  "from": "Long hot showers",
+  "to": "A low-flow showerhead",
+  "impact": 2,
+  "cost": "u",
+  "why": "Heating water is a big chunk of home energy. A good showerhead feels the same but uses less.",
+  "tip": "A shower timer helps too.",
+  "keywords": "water heater bath",
+  "match": []
+ },
+ {
+  "cat": "Home",
+  "from": "Manual heating",
+  "to": "A programmable thermostat",
+  "impact": 3,
+  "cost": "u",
+  "why": "Heating an empty house wastes energy. Setting a schedule cuts it without effort.",
+  "tip": "Lower it a degree or two when you’re asleep or out.",
+  "keywords": "furnace heating cooling temperature",
+  "match": []
+ },
+ {
+  "cat": "Transport",
+  "from": "Short car trips",
+  "to": "Walking or cycling",
+  "impact": 3,
+  "cost": "s",
+  "why": "Short trips use the most fuel per kilometer because the engine is cold.",
+  "tip": "Start with one regular trip, like groceries or school.",
+  "keywords": "car drive bike commute",
+  "match": []
+ },
+ {
+  "cat": "Transport",
+  "from": "Short flights",
+  "to": "Train or bus",
+  "impact": 3,
+  "cost": "e",
+  "why": "Flying is the most carbon-intensive way to travel per kilometer.",
+  "tip": "Compare door-to-door time, not just the ride.",
+  "keywords": "airplane flying travel vacation",
+  "match": []
+ },
+ {
+  "cat": "Food",
+  "from": "Lamb",
+  "to": "Chicken, beans or lentils",
+  "impact": 3,
+  "cost": "s",
+  "why": "Lamb has a very large footprint per serving, similar to beef.",
+  "tip": "Use it as a occasional treat and cook it in smaller portions.",
+  "keywords": "meat",
+  "match": ["lamb", "mutton", "sheep"]
+ },
+ {
+  "cat": "Food",
+  "from": "Individually wrapped snacks",
+  "to": "Bulk bins or one large bag",
+  "impact": 1,
+  "cost": "s",
+  "why": "Single portions use far more packaging for the same food.",
+  "tip": "Portion snacks into a reusable container at home.",
+  "keywords": "crisps biscuits",
+  "match": [
+   "snacks",
+   "crisps",
+   "biscuits"
+  ]
+ },
+ {
+  "cat": "Food",
+  "from": "Bottled soft drinks",
+  "to": "Tap water, or a home carbonator",
+  "impact": 2,
+  "cost": "s",
+  "why": "Bottles and cans carry a big packaging and shipping load for mostly water and sugar.",
+  "tip": "A carbonator pays itself back quickly if you drink fizzy water daily.",
+  "keywords": "soda pop juice",
+  "match": [
+   "sodas",
+   "soft drinks",
+   "carbonated drinks",
+   "sweetened beverages"
+  ]
+ },
+ {
+  "cat": "Food",
+  "from": "Single-serve coffee pods",
+  "to": "Ground coffee and a reusable filter",
+  "impact": 2,
+  "cost": "s",
+  "why": "Pods are small mixed-material pieces that are hard to recycle and cost more per cup.",
+  "tip": "Look for a refillable pod if you love your machine.",
+  "keywords": "capsule keurig nespresso",
+  "match": [
+   "capsule",
+   "coffee pod",
+   "pods"
+  ]
+ },
+ {
+  "cat": "Food",
+  "from": "Plastic-based tea bags",
+  "to": "Loose-leaf tea or plastic-free bags",
+  "impact": 1,
+  "cost": "e",
+  "why": "Many bags are sealed with plastic and shed microplastics into your cup.",
+  "tip": "Use a steel infuser and compost the leaves.",
+  "keywords": "tea",
+  "match": [
+   "tea bags",
+   "teas"
+  ]
+ },
+ {
+  "cat": "Food",
+  "from": "Ready meals in plastic trays",
+  "to": "Batch cooking and freezing",
+  "impact": 2,
+  "cost": "s",
+  "why": "Cooking once for several meals cuts packaging and usually costs less.",
+  "tip": "Freeze portions in reusable glass or steel containers.",
+  "keywords": "frozen dinner",
+  "match": [
+   "ready meals",
+   "prepared meals",
+   "frozen meals"
+  ]
+ },
+ {
+  "cat": "Food",
+  "from": "Takeout containers",
+  "to": "Your own container or eating in",
+  "impact": 1,
+  "cost": "e",
+  "why": "Single-use takeout packaging adds up quickly.",
+  "tip": "Ask if the restaurant accepts your container, and say no to extra cutlery.",
+  "keywords": "delivery",
+  "match": []
+ },
+ {
+  "cat": "Bathroom",
+  "from": "Tampons and disposable pads",
+  "to": "A menstrual cup or period underwear",
+  "impact": 2,
+  "cost": "s",
+  "why": "A cup or a few pairs replace years of disposables.",
+  "tip": "Try one option for a few cycles before switching fully.",
+  "keywords": "menstrual period",
+  "match": ["tampon", "sanitary pad", "menstrual", "period", "pad"]
+ },
+ {
+  "cat": "Bathroom",
+  "from": "Liquid hand soap in pumps",
+  "to": "Bar soap or refills",
+  "impact": 1,
+  "cost": "s",
+  "why": "Bars have no plastic and refills skip a new pump each time.",
+  "tip": "Use a draining dish so the bar lasts.",
+  "keywords": "hand wash",
+  "match": [
+   "hand soap",
+   "liquid soap"
+  ]
+ },
+ {
+  "cat": "Kitchen",
+  "from": "Disposable cutlery and plates",
+  "to": "Reusable sets",
+  "impact": 2,
+  "cost": "s",
+  "why": "Even compostable plates often go to landfill in practice.",
+  "tip": "Keep a small party set to lend out.",
+  "keywords": "party picnic",
+  "match": [
+   "disposable cutlery",
+   "plastic cutlery",
+   "paper plates"
+  ]
+ },
+ {
+  "cat": "Kitchen",
+  "from": "Plastic straws",
+  "to": "No straw, or a steel straw",
+  "impact": 1,
+  "cost": "e",
+  "why": "Straws are used for minutes and last for centuries.",
+  "tip": "Keep one in your bag with a small brush.",
+  "keywords": "drink",
+  "match": [
+   "straw"
+  ]
+ },
+ {
+  "cat": "Home",
+  "from": "Disposable batteries",
+  "to": "Rechargeable batteries",
+  "impact": 2,
+  "cost": "u",
+  "why": "One rechargeable set replaces hundreds of single-use cells.",
+  "tip": "Recycle old batteries at a drop-off, never in the bin.",
+  "keywords": "battery remote",
+  "match": ["batteries", "battery", "aa", "aaa"]
+ },
+ {
+  "cat": "Home",
+  "from": "Clothes dryer",
+  "to": "A drying rack or line",
+  "impact": 2,
+  "cost": "s",
+  "why": "Dryers are one of the biggest energy users in the home.",
+  "tip": "Do a final 10 minute tumble if towels feel stiff.",
+  "keywords": "laundry",
+  "match": []
+ },
+ {
+  "cat": "Home",
+  "from": "Hot-water laundry",
+  "to": "Cold-water washes",
+  "impact": 2,
+  "cost": "s",
+  "why": "Most of the energy in a wash goes to heating the water.",
+  "tip": "Use cold-friendly detergent and save hot for heavy stains.",
+  "keywords": "washing machine",
+  "match": []
+ },
+ {
+  "cat": "Home",
+  "from": "Drafty doors and windows",
+  "to": "Weatherstripping and sealing",
+  "impact": 3,
+  "cost": "s",
+  "why": "Cheap sealing cuts heat loss and often pays back in a season.",
+  "tip": "Test with a candle or your hand on a windy day.",
+  "keywords": "insulation winter",
+  "match": []
+ },
+ {
+  "cat": "Home",
+  "from": "Water heater on high",
+  "to": "A lower temperature setting",
+  "impact": 2,
+  "cost": "s",
+  "why": "Lowering the setting cuts energy at no cost.",
+  "tip": "Check your manual for the safe minimum before you change it.",
+  "keywords": "hot water",
+  "match": []
+ },
+ {
+  "cat": "Home",
+  "from": "Peat-based potting mix",
+  "to": "Peat-free compost",
+  "impact": 2,
+  "cost": "e",
+  "why": "Peat bogs store large amounts of carbon, and harvesting releases it.",
+  "tip": "Look for “peat-free” on the bag.",
+  "keywords": "garden gardening",
+  "match": [
+   "potting soil",
+   "potting mix",
+   "peat"
+  ]
+ },
+ {
+  "cat": "Shopping",
+  "from": "Replacing broken things",
+  "to": "Repair or a repair café",
+  "impact": 3,
+  "cost": "s",
+  "why": "Repair keeps the materials in use and is often cheaper than new.",
+  "tip": "Search for local repair cafés and video guides first.",
+  "keywords": "fix broken",
+  "match": []
+ },
+ {
+  "cat": "Shopping",
+  "from": "A new phone or laptop",
+  "to": "A refurbished device, kept longer",
+  "impact": 3,
+  "cost": "s",
+  "why": "Most of a device’s footprint is in making it.",
+  "tip": "Look for a warranty from a reputable refurbisher.",
+  "keywords": "electronics",
+  "match": []
+ },
+ {
+  "cat": "Shopping",
+  "from": "Many small online orders",
+  "to": "One consolidated order",
+  "impact": 1,
+  "cost": "s",
+  "why": "Fewer shipments mean fewer boxes and trips.",
+  "tip": "Use the ‘ship together’ option when it’s offered.",
+  "keywords": "amazon delivery",
+  "match": []
+ },
+ {
+  "cat": "Transport",
+  "from": "Driving alone to work",
+  "to": "Transit, a carpool or an e-bike",
+  "impact": 3,
+  "cost": "e",
+  "why": "Commuting is a large, daily source of emissions that you can change.",
+  "tip": "Try it for one day a week first.",
+  "keywords": "commute car",
+  "match": []
+ },
+ {
+  "cat": "Home",
+  "from": "A gas lawn mower",
+  "to": "An electric or manual mower",
+  "impact": 2,
+  "cost": "u",
+  "why": "Small gas engines emit a lot of pollution for their size.",
+  "tip": "Check for trade-in and rebate programs.",
+  "keywords": "lawn yard",
+  "match": []
+ }
+]
